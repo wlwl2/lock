@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace lock
+namespace Lock
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var noLock = new NoLocking();
+            noLock.RunMe();
         }
     }
 }
